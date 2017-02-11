@@ -32,7 +32,7 @@ app.set("view engine", "handlebars");
 app.use(express.static(__dirname + "/public"));
 
 //routes
-var routes = require("./routes/api-routes.js");
+var routes = require("./routes/api-routes_user.js");
 app.use("/", routes);
 
 //start to server listening
