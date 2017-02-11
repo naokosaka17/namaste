@@ -18,7 +18,7 @@ var sequelize = new Sequelize("iwt9z4ag1ipcrvxj",  "js6aj9sr2imcdrh9", "g6mgjqn8
 */
 
 
-var sequelize = new Sequelize("namaste", "root", "", {
+var  sequelize = new Sequelize("namaste", "root", "", {
 
   host: "localhost",
   dialect: "mysql",
