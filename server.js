@@ -33,6 +33,7 @@ app.use(express.static(__dirname + "/public"));
 
 //routes
 var routes = require("./routes/api-routes_user.js");
+var routes = require("./routes/html-routes_user.js");
 app.use("/", routes);
 
 //start to server listening
